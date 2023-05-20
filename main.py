@@ -5,7 +5,7 @@ import ytthum
 pip install python-dotenv
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from dotenv import dotenv_values, load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 
 Bot = Client(
