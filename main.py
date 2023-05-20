@@ -2,7 +2,7 @@
 
 import os
 import ytthum 
-pip install python-dotenv
+
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from dotenv import load_dotenv
