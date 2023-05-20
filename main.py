@@ -4,7 +4,7 @@ import os
 import ytthumb
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
+from dotenv import load_dotenv
 load_dotenv()
 
 Bot = Client(
